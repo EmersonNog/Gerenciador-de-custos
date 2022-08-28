@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #223;
+    padding: 0.4em;
+    position: sticky;
+    top: 0;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.item {
+    margin-right: 1em;
+}
+
+.item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: #ffbb33;
+}
+
+.logo_navbar {
+    max-width: 70px;
+    margin-left: 50px;
+}

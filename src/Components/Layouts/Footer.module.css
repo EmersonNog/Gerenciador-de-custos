@@ -1,0 +1,39 @@
+.footer {
+    background-color: #223;
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.item li {
+    margin: 0 1em;
+}
+
+.item li:hover {
+    color: #ffbb33;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+.item li svg {
+    font-size: 1.5em;
+}
+
+.copy {
+    margin-top: 2em;
+}
+
+.copy span {
+    font-weight: bold;
+    color: #ffbb33;
+}
